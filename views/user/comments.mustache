@@ -1,0 +1,29 @@
+<html>
+    <head>
+        {{>header2}}
+    </head>
+    <body>
+        <h1>{{title}}</h1>
+        {{#entries}}
+            <div class = "container";>
+            <p class = "b">
+                Customer: {{customer_name}}
+                </P>
+                <p class = "b">
+                  Email:  {{email_address}}
+                </p>
+                  <p class = "b">
+                  Date:  {{date}}
+                </p>
+                <p class = "b">
+                  Comment: {{comment}}  
+                </p>
+            </div>
+            <hr>
+        {{/entries}}
+        {{^entries}}
+            No entries yet.
+        {{/entries}}
+         
+    </body>
+</html>

@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+{{>header2}}
+</head>
+
+<body >
+<center><h1>{{title}}</h1></center>
+    <form method="post" role="form">
+        <center><div class="form-group">
+        <p class = "b">
+            <label for="name"; >Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+            </p>
+
+
+        
+        <p class = "b">
+            <label for="description"; >Description</label>
+            <textarea class="form-control" id="description" name="description" placeholder="Description" rows="6"></textarea>
+             </P>
+      
+        <p class = "b">
+            <label for="ingredients"; >Ingredients</label>
+            <textarea class="form-control" id="ingredients" name="ingredients" placeholder="Ingredients" rows="6" required></textarea>
+            </P>
+       
+        <p class = "b">
+            <label for="allergy_advice"; >Allergy Advice</label>
+            <textarea class="form-control" id="allergy_advice" name="allergy_advice" placeholder="Allergy advice" rows="6"></textarea>
+            </p>
+     
+         <p class = "b">
+            <label for="price"; >Price</label>
+            <input type="text" class="form-control" id="price" name="price" placeholder="Price" required>
+            </p>
+  
+        <p class = "a">
+        Add to menu: 
+        </p>
+        <p class = "b">
+        <label for="on_lunch_menu">Lunch</label>
+        <input type="checkbox" id="on_lunch_menu" name="on_lunch_menu" value = "1" unchecked>
+        </p>
+        <p class = "b">
+        <label for="on_Dinner_menu">Dinner</label>
+        <input type="checkbox" id="on_dinner_menu" name="on_dinner_menu" value = "1" unchecked>
+      </p>
+
+
+ <p class = "b">
+             <label for="make_button_align">  </label>
+            <input type="submit" value="Save Details" class="button button3">
+</p>
+    </form>
+</body>
+
+</html>

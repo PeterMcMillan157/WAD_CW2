@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+{{>header}}
+<link rel="stylesheet" href="../public/styles.css">
+
+</head>
+<body style="background-color:#DD7777;" class="container">
+<h2 style="color:#FFFFFF">Contact Us</h2>
+    <form method="post" role="form">
+        <div class="form-group">
+           <p class = "b"> <label for="name"; style="color:#FFFFFF">Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+            </p>
+        </div>
+        <div class="form-group">
+        <p class = "b">
+            <label for="description"; style="color:#FFFFFF">Description</label>
+            <input type="text" class="form-control" id="description" name="description" placeholder="Description" rows="2" required>
+            </p>
+        </div>
+        <div class="form-group">
+        <p class = "b">
+            <label for="ingredients"; style="color:#FFFFFF">Ingredients</label>
+            <textarea class="form-control" id="ingredients" name="ingredients" placeholder="Ingredients" rows="3"    required>
+            </textarea>
+            </p>
+        </div>
+
+        <div class="form-group">
+        <p class = "b">
+            <label for="ingredients"; style="color:#FFFFFF">Allergy Advice</label>
+            <textarea class="form-control" id="allergy_advice" name="allergy_advice" placeholder="allergy_advice" rows="3"    >
+            </textarea>
+            </P>
+        </div>
+
+        <div class="form-group">
+        <p class = "b"> 
+            <label for="ingredients"; style="color:#FFFFFF">Price</label>
+            <textarea class="form-control" id="price" name="price" placeholder="Price"    required>
+            </textarea>
+            </P>
+        </div>
+
+            <div class="form-group">
+            <p class = "b">
+            <label for="on_lunch_menu"; style="color:#FFFFFF">Add to lunch menu</label>
+            <input type="number" id="on_lunch_menu" name="on_lunch_menu" min="0" max="1">
+            </textarea>
+            </p>
+        </div>
+
+          <div class="form-group">
+          <p class = "b">
+            <label for="on_dinner_menu"; style="color:#FFFFFF">Add to dinner menu</label>
+            <input type="number" id="on_dinner_menu" name="on_dinner_menu" min="0" max="1">
+            </textarea>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Save Details" class="button button1">
+            </p>
+        </div>
+    </form>
+</body>
+</html>

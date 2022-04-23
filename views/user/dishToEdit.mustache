@@ -1,0 +1,36 @@
+<html>
+    <head>
+        {{>header2}}
+    </head>
+    <body">
+        <h1 >{{title}}</h1>
+        {{#entries}}
+            <div style="color:#FFFFFF";>
+            <p class = "a">
+               ID: {{_id}}
+               </P>
+                <p class = "a">
+                Dish: {{name}}
+                </p>
+                <p class = "a">
+                  Description:  {{description}}
+                </p>
+                <p class = "a">
+                  Ingredients: {{ingredients}}  
+                </p>
+                <p class = "a">
+                Allergy Advice: {{allergy_advice}}
+                </p>
+                <p class = "a">
+                 Price: {{price}}
+                </p>
+            </div>
+            <hr>
+             <center><a href = "/editdish">  <button type="button" class="button button3" >Edit dish</button></a></center>
+        {{/entries}}
+        {{^entries}}
+           <P class = "a"> Sorry, the dish you searched for could not be found. </P>
+        {{/entries}}
+        
+    </body>
+</html>

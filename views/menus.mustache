@@ -1,0 +1,31 @@
+<html>
+    <head>
+        {{>header}}
+    </head>
+    <body style="background-color:#DD7777;">
+        <h1>{{title}}</h1>
+        {{#entries}}
+            <div class="container";>
+            <p class = "b">
+                Dish: {{name}}
+                </P>
+                <p class = "b">
+                  Description:  {{description}}
+                </p>
+                <p class = "b">
+                  Ingredients: {{ingredients}}  
+                </p>
+                <p class = "b">
+                Allergy Advice: {{allergy_advice}}
+                </p>
+                <p class = "b">
+                 Price: {{price}}
+                </p>
+            </div>
+            <hr style="height:0px; color: #DD7777">
+        {{/entries}}
+        {{^entries}}
+            No entries yet.
+        {{/entries}}
+    </body>
+</html>

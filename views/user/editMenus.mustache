@@ -1,0 +1,29 @@
+<html>
+    <head>
+        {{>header2}}
+    </head>
+    <body >
+        <h1>{{title}}</h1>
+        {{#entries}}
+            <div class = "Container";>
+            <p class = "b">
+
+             <form method="post" role="form"> <li> 
+             <input  style type="text" id="remove" name="remove" value = {{_id}} readonly  >
+             </li>
+             <label for="make_button_align">   {{name}} </label>
+             <input type="submit" value="Remove" class="button button3">
+            </P>
+       </form>
+
+            </div>
+          
+        {{/entries}}
+      
+        {{^entries}}
+            <p class = "a">There are currently no items on the menu.</P>
+        {{/entries}}
+        <p class = "a"><a href= "/adddish"> <button type="button" class="button button3" >New dish</button></a>
+         <a href = "/geteditdish">  <button type="button" class="button button3" >Edit dish</button></a></p>
+    </body>
+</html>

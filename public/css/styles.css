@@ -1,0 +1,60 @@
+body {
+    background-color: #DD7777;;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    font-family: roboto;
+  }
+
+p.a { font-family: roboto; font-size: 20px;  color:white; margin-left: 300px;}
+
+form  { display: table;      }
+p.b     { display: table-row; font-family: roboto; font-size: 20px;  color:white}
+label { display: table-cell; text-align: right; width: 600px; font-family: roboto; color:white}
+input { display: table-cell; width: 600px; background-color: #dcdfe3}
+textarea {display: table-cell; width: 600px; background-color: #dcdfe3}
+  
+
+.container { margin-left: 300px; width:1300px; background-color: #784646; text-align: left; padding: 0px 0px;}
+
+  .button {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: roboto;
+    margin: 2px 2px;
+    cursor: pointer;
+  }
+
+  .button1 {background-color: #E9EDBD; width: 315px;}
+  .button2 {background-color: #784646; height: 500px; width: 700px; font-size: 24px; color: white;}
+  .button3 {background-color: #E9EDBD; width: 150px;}
+
+  * {
+    box-sizing: border-box;
+    }
+
+  /* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+    li {
+      display: none;
+    }
+
