@@ -1,6 +1,7 @@
 // set up dish database and load initial records into it
 const dishDAO = require('../models/dishModel');
-const db = new dishDAO("dish.db");
+//const db = new dishDAO("dish.db");
+const db = new dishDAO();
 db.init();
 
 // x is a variable that will store details of a dish the user wants to edit
@@ -11,7 +12,8 @@ var x
 
 // set up comment database and load initial records into it
 const commentDAO = require('../models/commentModel');
-const db3 = new commentDAO("comment.db");
+//const db3 = new commentDAO("comment.db");
+const db3 = new commentDAO();
 
 db3.init();
 
