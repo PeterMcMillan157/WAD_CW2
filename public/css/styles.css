@@ -5,14 +5,14 @@ body {
   h1 {
     color: white;
     text-align: center;
-    font-family: roboto;
+    font-family: verdana;
   }
 
-p.a { font-family: roboto; font-size: 20px;  color:white; margin-left: 300px;}
+p.a { font-family: verdana; font-size: 20px;  color:white; margin-left: 300px;}
 
 form  { display: table;      }
-p.b     { display: table-row; font-family: roboto; font-size: 20px;  color:white}
-label { display: table-cell; text-align: right; width: 600px; font-family: roboto; color:white}
+p.b     { display: table-row; font-family: verdana; font-size: 20px;  color:white}
+label { display: table-cell; text-align: right; width: 600px; font-family: verdana; color:white}
 input { display: table-cell; width: 600px; background-color: #dcdfe3}
 textarea {display: table-cell; width: 600px; background-color: #dcdfe3}
   
@@ -27,7 +27,7 @@ textarea {display: table-cell; width: 600px; background-color: #dcdfe3}
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    font-family: roboto;
+    font-family: verdana;
     margin: 2px 2px;
     cursor: pointer;
   }
